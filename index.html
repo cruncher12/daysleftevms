@@ -71,6 +71,13 @@ var end = Date.now() + duration;
   }
 }());
 </script>
-
+<script>
+  setInterval(function () {
+    var date = new Date();
+    if (date.getDate() === 8 && date.getHours() === 13 && date.getMinutes === 28) {
+        window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley')
+    }
+}, 1000)
+</script>
 </body>
 </html>
