@@ -70,18 +70,9 @@ var end = Date.now() + duration;
     requestAnimationFrame(frame);
   }
 }());
-  
-var count = 1
-document.getElementById('beep').addEventListener('ended', function(){
-   this.currentTime = 0;
-   if(count <= 3){
-      this.play();
-   }
-   count++;
-}, false);
-</script>
+
 <audio id="beep">
-   <source src="https://ia600605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3" type="audio/wav" />
+   <source src="rickroll.mp3" type="audio/wav" />
 </audio>
 
 </body>
